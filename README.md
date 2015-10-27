@@ -12,7 +12,7 @@ Repository with some [PHP](http://php.net/) utility classes.
 
 ## Usage
 
-Just add this into `require` section of your `composer.json` file:
+Just add `ondrejd/php-utils` into `require` section of your `composer.json` file:
 
 ```json
 {
@@ -21,3 +21,5 @@ Just add this into `require` section of your `composer.json` file:
 	}
 }
 ```
+
+> Details about `ondrejd/php-utils` can be found on [packagist.org](https://packagist.org/packages/ondrejd/php-utils).
