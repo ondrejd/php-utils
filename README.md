@@ -5,6 +5,7 @@ Repository with some [PHP](http://php.net/) utility classes.
 ## Included classes
 
 | Class name | Description
+|------------|--------------
 | CsvImport  | Class used for reading data from CSV files.
 
 ## Usage
