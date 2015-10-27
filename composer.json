@@ -1,0 +1,30 @@
+{
+    "name": "ondrejd/php-utils",
+    "description": "Some PHP utility classes.",
+    "homepage": "https://github.com/ondrejd/php-utils",
+    "type": "library",
+    "license": "MPL-2.0",
+    "keywords": ["utilities","csv"],
+    "authors": [
+        {
+            "name": "Ondřej Doněk",
+            "email": "ondrejd@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-0": {
+            "ondrejd\\Utils\\": "src/"
+        },
+        "classmap": [
+            "./"
+        ]
+    },
+    "require": {
+        "php": ">=5.3"
+    },
+    "require-dev": {
+       "phpunit/phpunit": "4.8.*"
+    }
+}
