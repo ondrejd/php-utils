@@ -1,5 +1,7 @@
 # php-utils
 
+[![Build Status](https://travis-ci.org/ondrejd/php-utils.svg)](https://travis-ci.org/ondrejd/php-utils)
+
 Repository with some [PHP](http://php.net/) utility classes.
 
 ## Included classes
