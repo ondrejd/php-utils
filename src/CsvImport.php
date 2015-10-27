@@ -148,11 +148,13 @@ class CsvImport implements \ArrayAccess, \Countable {
    * @return array
    */
   private function parseRow($buffer) {
-    if (empty(trim($buffer))) {
+    $buffer = trim($buffer);
+
+    if (empty($buffer)) {
       return array();
     }
 
-    $data = split($this->separator, $buffer);
+    $data = explode($this->separator, $buffer);
 
     if (count($data) == 0) {
       return array();
